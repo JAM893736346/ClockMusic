@@ -7,17 +7,17 @@ public class ItemManager : MonoBehaviour
     public int WaveCount = 1;
     public int waveCountNext;
     [SerializeField] Transform pointer;
+    //包含的指针集合
     [SerializeField] List<GameObject> items;
-
+    //指针回放的ScriptObject文件
     [SerializeField] item_Data itemdata;
-    // Start is called before the first frame update
     private void Awake()
     {
         for (int i = 0; i < transform.childCount; i++)
         {
             items.Add(transform.GetChild(i).gameObject);
         }
-        // pointer = GameObject.Find("Pointer").transform;
+        //更新波数逻辑
         waveCountNext = WaveCount + 1;
 
     }
@@ -27,10 +27,8 @@ public class ItemManager : MonoBehaviour
         StartCoroutine(nameof(StartBornCoroutine));
         for (int i = 0; i < itemdata.itemDatas[1].statetable.Length; i++)
         {
-           // print("进入循环");
             if (itemdata.itemDatas[1].statetable[i] == 1)
             {
-                //print("进入条件");
                 if (!items[i].gameObject.activeSelf)
                 {
                     items[i].gameObject.SetActive(true);
@@ -42,6 +40,10 @@ public class ItemManager : MonoBehaviour
     {
         StopAllCoroutines();
     }
+    /// <summary>
+    /// 即将结束时要将表盘上的指针清除
+    /// </summary>
+    /// <returns></returns>
     IEnumerator WaveCountCoroutine()
     {
         while (true)
@@ -64,6 +66,10 @@ public class ItemManager : MonoBehaviour
         }
 
     }
+    /// <summary>
+    /// 加载本次表盘上相应位置出现的点数
+    /// </summary>
+    /// <returns></returns>
     IEnumerator StartBornCoroutine()
     {
         while (!(WaveCount >= itemdata.itemDatas.Count))

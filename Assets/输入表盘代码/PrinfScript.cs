@@ -34,9 +34,9 @@ public class PrinfScript : MonoBehaviour
     }
     private void Update()
     {
+        //音乐进度条
         OnClick();
         bgmslider.value = bgm.time / bgm.clip.length;
-        //按下按键对应位置的数组值为一
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (statetable[statetable_count] != 1)
@@ -45,8 +45,12 @@ public class PrinfScript : MonoBehaviour
             }
         }
     }
+    /// <summary>
+    /// 游戏暂停
+    /// </summary>
     void OnClick()
     {
+        
         if (Input.GetKeyDown(KeyCode.P))
         {
             if (bgm.isPlaying)
@@ -62,6 +66,10 @@ public class PrinfScript : MonoBehaviour
             }
         }
     }
+    /// <summary>
+    /// 指针索引动态更新
+    /// </summary>
+    /// <returns></returns>
     IEnumerator pointerCoroutine()
     {
         while (true)
@@ -72,6 +80,10 @@ public class PrinfScript : MonoBehaviour
             transform.Rotate(new Vector3(0, 0, Speed));
         }
     }
+    /// <summary>
+    /// 每经过一轮自动更新
+    /// </summary>
+    /// <returns></returns>
     IEnumerator StatetAction()
     {
         while (true)

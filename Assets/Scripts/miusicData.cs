@@ -6,9 +6,9 @@ using UnityEngine;
 public class miusicData : MonoBehaviour
 {
     public float[] spectrum = new float[256];
-    // public float sum;
-    // public int m = 0;
-    // public float add;
+    public float sum;
+    public int m = 0;
+    public float add;
     public List<Transform> cubes;
     public float StepCount;
 
@@ -22,7 +22,7 @@ public class miusicData : MonoBehaviour
     float timeCount;
     void Update()
     {
-        // float[] spectrum = new float[256]; 
+        float[] spectrum = new float[256];
         AudioListener.GetSpectrumData(spectrum, 0, FFTWindow.Rectangular);
         timeCount -= Time.deltaTime;
         if (timeCount <= 0)
@@ -31,29 +31,27 @@ public class miusicData : MonoBehaviour
             {
                 cubes[i].transform.localScale = new Vector3(cubes[i].localScale.x, spectrum[i] * StepCount, cubes[i].localScale.z);
             }
-            timeCount=0.1f;
+            timeCount = 0.1f;
         }
-
-        // for (int i = 0; i < spectrum.Length-1; i++)
-        // {
-
-        // }
-        // m++;
-        // if (Pingjun(spectrum)>0.035f)
-        // {
-        //     print(true);
-        // }
-        // sum += Pingjun(spectrum);
-
+        m++;
+        if (Pingjun(spectrum) > 0.0035f)
+        {
+            print(1);
+        }
+        sum += Pingjun(spectrum);
+    }
+    private void OnDisable()
+    {
+        print(sum / m);
     }
 
-    // float Pingjun(float[] data)
-    // {
-    //     float a = 0;
-    //     foreach (var item in data)
-    //     {
-    //         a += item;
-    //     }
-    //     return a / data.Length;
-    // }
+    float Pingjun(float[] data)
+    {
+        float a = 0;
+        foreach (var item in data)
+        {
+            a += item;
+        }
+        return a / data.Length;
+    }
 }

@@ -9,17 +9,19 @@ public class Item : MonoBehaviour
 {
 
     bool IsClick = false;
+    //输入正确的图片显示
     [SerializeField] Sprite Trueimage;
+    //输入错误的图片显示
     [SerializeField] Sprite Falseimage;
+    //获得图片组件
     SpriteRenderer idlesprit;
+    //指针
     [SerializeField] GameObject pointer;
-    //  public static UnityAction ButtonEvent = delegate { };
     Animator animator;
     private void Awake()
     {
         idlesprit = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
-        //pointer = GameObject.Find("Pointer");
     }
     private void OnEnable()
     {
@@ -30,19 +32,29 @@ public class Item : MonoBehaviour
     {
         StopAllCoroutines();
     }
-    // Update is called once per frame
+    /// <summary>
+    /// 指针进入开始执行协程
+    /// </summary>
     public void StartCoroutine()
     {
         StartCoroutine(nameof(GetSpaceCoroutine));
     }
+    /// <summary>
+    /// 指针退出执行携程
+    /// </summary>
     public void StopCoroutine()
     {
+        //如果状态为未点击则更改图片的样式
         if (IsClick == false)
         {
             idlesprit.sprite = Falseimage;
         }
         StopCoroutine(nameof(GetSpaceCoroutine));
     }
+    /// <summary>
+    /// 指针和点数重叠的逻辑处理
+    /// </summary>
+    /// <returns></returns>
     IEnumerator GetSpaceCoroutine()
     {
         while (true)
@@ -53,9 +65,10 @@ public class Item : MonoBehaviour
                 //播放伸缩动画
                 pointer.GetComponent<bornpoint>().PlayerAnimation();
                 gameObject.SetActive(false);
-
+                
             }
             yield return null;
         }
     }
+    
 }

@@ -1155,7 +1155,6 @@ GameObject:
   - component: {fileID: 6194289788868140159}
   - component: {fileID: 5101509042675546919}
   - component: {fileID: 116214655272965434}
-  - component: {fileID: 116214655272965435}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -1179,21 +1178,6 @@ CircleCollider2D:
   m_Offset: {x: -0.00000011920929, y: -0.000000059604645}
   serializedVersion: 2
   m_Radius: 0.125
---- !u!114 &116214655272965435
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 116214655272965433}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!1 &129920138343715817
 GameObject:
   m_ObjectHideFlags: 0
@@ -1205,7 +1189,6 @@ GameObject:
   - component: {fileID: 3573948098610031039}
   - component: {fileID: 7429516870361990851}
   - component: {fileID: 129920138343715818}
-  - component: {fileID: 129920138343715819}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -1229,21 +1212,6 @@ CircleCollider2D:
   m_Offset: {x: 0.0015392413, y: -0.00027132194}
   serializedVersion: 2
   m_Radius: 0.12266736
---- !u!114 &129920138343715819
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 129920138343715817}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!4 &417098745420981881
 Transform:
   m_ObjectHideFlags: 0
@@ -1269,7 +1237,6 @@ GameObject:
   - component: {fileID: 7736636211525218099}
   - component: {fileID: 2712544869658381116}
   - component: {fileID: 462677658659121989}
-  - component: {fileID: 462677658659121990}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -1293,21 +1260,6 @@ CircleCollider2D:
   m_Offset: {x: -0.00000011920929, y: 0}
   serializedVersion: 2
   m_Radius: 0.125
---- !u!114 &462677658659121990
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 462677658659121988}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!1 &487628530659551223
 GameObject:
   m_ObjectHideFlags: 0
@@ -1319,7 +1271,6 @@ GameObject:
   - component: {fileID: 3472290580965954211}
   - component: {fileID: 7770459242421116280}
   - component: {fileID: 487628530659551224}
-  - component: {fileID: 487628530659551225}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -1343,21 +1294,6 @@ CircleCollider2D:
   m_Offset: {x: -0.00000011920929, y: 0.000000059604645}
   serializedVersion: 2
   m_Radius: 0.12499999
---- !u!114 &487628530659551225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 487628530659551223}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!212 &533257202465323391
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1420,7 +1356,6 @@ GameObject:
   - component: {fileID: 4789731266572012730}
   - component: {fileID: 533257202465323391}
   - component: {fileID: 617682341485869906}
-  - component: {fileID: 617682341485869907}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -1444,21 +1379,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.12499999
---- !u!114 &617682341485869907
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 617682341485869905}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!212 &1019295336494539975
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1614,7 +1534,6 @@ GameObject:
   - component: {fileID: 4107081302529079974}
   - component: {fileID: 1871175065713627445}
   - component: {fileID: 1194312972417473722}
-  - component: {fileID: 1194312972417473723}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -1638,21 +1557,6 @@ CircleCollider2D:
   m_Offset: {x: 0.0005280443, y: -0.0014507908}
   serializedVersion: 2
   m_Radius: 0.10904634
---- !u!114 &1194312972417473723
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1194312972417473721}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!212 &1318906016279633581
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1743,7 +1647,6 @@ GameObject:
   - component: {fileID: 4944572974950802703}
   - component: {fileID: 5261595229397734785}
   - component: {fileID: 1708063738013081478}
-  - component: {fileID: 1708063738013081479}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -1767,21 +1670,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.12500004
---- !u!114 &1708063738013081479
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1708063738013081477}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!1 &1726957405725839910
 GameObject:
   m_ObjectHideFlags: 0
@@ -1793,7 +1681,6 @@ GameObject:
   - component: {fileID: 6290184855495960385}
   - component: {fileID: 1318906016279633581}
   - component: {fileID: 1726957405725839911}
-  - component: {fileID: 1726957405725839912}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -1817,21 +1704,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.125
---- !u!114 &1726957405725839912
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1726957405725839910}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!212 &1846834405095841250
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1945,7 +1817,6 @@ GameObject:
   - component: {fileID: 1100882279177305218}
   - component: {fileID: 2023264784854082052}
   - component: {fileID: 1986354672109554937}
-  - component: {fileID: 1986354672109554938}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -1969,21 +1840,6 @@ CircleCollider2D:
   m_Offset: {x: -0.00000011920929, y: 0.00000011920929}
   serializedVersion: 2
   m_Radius: 0.125
---- !u!114 &1986354672109554938
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1986354672109554936}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!212 &2023264784854082052
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2162,7 +2018,6 @@ GameObject:
   - component: {fileID: 2118866233471073289}
   - component: {fileID: 3465688707580113052}
   - component: {fileID: 2366689978267526631}
-  - component: {fileID: 2366689978267526632}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -2186,21 +2041,6 @@ CircleCollider2D:
   m_Offset: {x: -0.000000059604645, y: 0.00000011920929}
   serializedVersion: 2
   m_Radius: 0.125
---- !u!114 &2366689978267526632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2366689978267526630}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!4 &2487368157745536909
 Transform:
   m_ObjectHideFlags: 0
@@ -2277,7 +2117,6 @@ GameObject:
   - component: {fileID: 2487368157745536909}
   - component: {fileID: 1178387392884651381}
   - component: {fileID: 2816957102225190552}
-  - component: {fileID: 2816957102225190553}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -2301,21 +2140,6 @@ CircleCollider2D:
   m_Offset: {x: -0.00000011920929, y: 0.00000011920929}
   serializedVersion: 2
   m_Radius: 0.125
---- !u!114 &2816957102225190553
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2816957102225190551}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!212 &2826316506470572755
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2378,7 +2202,6 @@ GameObject:
   - component: {fileID: 5630581586126894381}
   - component: {fileID: 7232781849316401834}
   - component: {fileID: 2834512404543014701}
-  - component: {fileID: 2834512404543014702}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -2402,21 +2225,6 @@ CircleCollider2D:
   m_Offset: {x: -0.0065722903, y: -0.0023921183}
   serializedVersion: 2
   m_Radius: 0.14365092
---- !u!114 &2834512404543014702
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2834512404543014700}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!1 &3136482421424964434
 GameObject:
   m_ObjectHideFlags: 0
@@ -2428,7 +2236,6 @@ GameObject:
   - component: {fileID: 7535457690699844863}
   - component: {fileID: 7845816467349808951}
   - component: {fileID: 3136482421424964435}
-  - component: {fileID: 3136482421424964436}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -2452,21 +2259,6 @@ CircleCollider2D:
   m_Offset: {x: -0.0038855756, y: 0.00000011980964}
   serializedVersion: 2
   m_Radius: 0.1389882
---- !u!114 &3136482421424964436
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3136482421424964434}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!1 &3144424359051072749
 GameObject:
   m_ObjectHideFlags: 0
@@ -2478,7 +2270,6 @@ GameObject:
   - component: {fileID: 7239449695297376265}
   - component: {fileID: 6240743527665780806}
   - component: {fileID: 3144424359051072750}
-  - component: {fileID: 3144424359051072751}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -2502,21 +2293,6 @@ CircleCollider2D:
   m_Offset: {x: 0.000000029802322, y: 0.00000011920929}
   serializedVersion: 2
   m_Radius: 0.12499999
---- !u!114 &3144424359051072751
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3144424359051072749}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!212 &3343109540120909005
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2658,7 +2434,6 @@ GameObject:
   - component: {fileID: 5379277310023848588}
   - component: {fileID: 2153310902163248100}
   - component: {fileID: 3579979115912577339}
-  - component: {fileID: 3579979115912577340}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -2682,21 +2457,6 @@ CircleCollider2D:
   m_Offset: {x: 0.00000011920929, y: 0}
   serializedVersion: 2
   m_Radius: 0.12500001
---- !u!114 &3579979115912577340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3579979115912577338}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!212 &3713235958141611769
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2894,7 +2654,6 @@ GameObject:
   - component: {fileID: 4486162034985611090}
   - component: {fileID: 3713235958141611769}
   - component: {fileID: 4818312769598562776}
-  - component: {fileID: 4818312769598562777}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -2918,21 +2677,6 @@ CircleCollider2D:
   m_Offset: {x: 0.0029229317, y: 0.0005152818}
   serializedVersion: 2
   m_Radius: 0.13912876
---- !u!114 &4818312769598562777
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4818312769598562775}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!4 &4849542990940697911
 Transform:
   m_ObjectHideFlags: 0
@@ -3023,7 +2767,6 @@ GameObject:
   - component: {fileID: 1059029472421048992}
   - component: {fileID: 2826316506470572755}
   - component: {fileID: 5007501795834085910}
-  - component: {fileID: 5007501795834085911}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -3047,21 +2790,6 @@ CircleCollider2D:
   m_Offset: {x: 0.000000029802322, y: 0.00000011920929}
   serializedVersion: 2
   m_Radius: 0.125
---- !u!114 &5007501795834085911
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5007501795834085909}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!212 &5101509042675546919
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3124,7 +2852,6 @@ GameObject:
   - component: {fileID: 7878335281136148078}
   - component: {fileID: 7898286946860302983}
   - component: {fileID: 5124068865484431741}
-  - component: {fileID: 5124068865484431742}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -3148,21 +2875,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.00000023841858}
   serializedVersion: 2
   m_Radius: 0.125
---- !u!114 &5124068865484431742
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5124068865484431740}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!1 &5162988538425579647
 GameObject:
   m_ObjectHideFlags: 0
@@ -3174,7 +2886,6 @@ GameObject:
   - component: {fileID: 1609994113408636571}
   - component: {fileID: 7130089639391009065}
   - component: {fileID: 5162988538425579648}
-  - component: {fileID: 5162988538425579649}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -3198,21 +2909,6 @@ CircleCollider2D:
   m_Offset: {x: 0.0020665033, y: 0.000503485}
   serializedVersion: 2
   m_Radius: 0.12743042
---- !u!114 &5162988538425579649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5162988538425579647}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!212 &5261595229397734785
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3303,7 +2999,6 @@ GameObject:
   - component: {fileID: 3925530456546657306}
   - component: {fileID: 7321817613402045912}
   - component: {fileID: 5637928797149113252}
-  - component: {fileID: 5637928797149113253}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -3327,21 +3022,6 @@ CircleCollider2D:
   m_Offset: {x: -0.00000011920929, y: 0}
   serializedVersion: 2
   m_Radius: 0.125
---- !u!114 &5637928797149113253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5637928797149113251}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!1 &5693091609575440555
 GameObject:
   m_ObjectHideFlags: 0
@@ -3353,7 +3033,6 @@ GameObject:
   - component: {fileID: 8209338582117188592}
   - component: {fileID: 7586196166946544779}
   - component: {fileID: 5693091609575440556}
-  - component: {fileID: 5693091609575440557}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -3377,21 +3056,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.125
---- !u!114 &5693091609575440557
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5693091609575440555}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!1 &5781787765988841227
 GameObject:
   m_ObjectHideFlags: 0
@@ -3403,7 +3067,6 @@ GameObject:
   - component: {fileID: 8516108517017955313}
   - component: {fileID: 7792709623962288437}
   - component: {fileID: 5781787765988841228}
-  - component: {fileID: 5781787765988841229}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -3427,21 +3090,6 @@ CircleCollider2D:
   m_Offset: {x: -0.00000011920929, y: 0}
   serializedVersion: 2
   m_Radius: 0.15999998
---- !u!114 &5781787765988841229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5781787765988841227}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!4 &5913552345396582341
 Transform:
   m_ObjectHideFlags: 0
@@ -3676,7 +3324,6 @@ GameObject:
   - component: {fileID: 1596715457350737286}
   - component: {fileID: 3343109540120909005}
   - component: {fileID: 6982867911971003432}
-  - component: {fileID: 6982867911971003433}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -3700,21 +3347,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.00000011920929}
   serializedVersion: 2
   m_Radius: 0.125
---- !u!114 &6982867911971003433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6982867911971003431}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!1 &6997810329074026064
 GameObject:
   m_ObjectHideFlags: 0
@@ -3726,7 +3358,6 @@ GameObject:
   - component: {fileID: 6970079760609063975}
   - component: {fileID: 6229258386813314575}
   - component: {fileID: 6997810329074026065}
-  - component: {fileID: 6997810329074026066}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -3750,21 +3381,6 @@ CircleCollider2D:
   m_Offset: {x: -0.000000029802322, y: 0}
   serializedVersion: 2
   m_Radius: 0.125
---- !u!114 &6997810329074026066
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6997810329074026064}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!212 &7130089639391009065
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3892,7 +3508,6 @@ GameObject:
   - component: {fileID: 8304193734368947870}
   - component: {fileID: 7970307836780011805}
   - component: {fileID: 7256288683938387373}
-  - component: {fileID: 7256288683938387374}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -3916,21 +3531,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.12500003
---- !u!114 &7256288683938387374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7256288683938387372}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!1 &7274806430477678545
 GameObject:
   m_ObjectHideFlags: 0
@@ -3942,7 +3542,6 @@ GameObject:
   - component: {fileID: 30923622067100911}
   - component: {fileID: 4561177518918060070}
   - component: {fileID: 7274806430477678546}
-  - component: {fileID: 7274806430477678547}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -3966,21 +3565,6 @@ CircleCollider2D:
   m_Offset: {x: -0.00000011920929, y: 0}
   serializedVersion: 2
   m_Radius: 0.124999985
---- !u!114 &7274806430477678547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7274806430477678545}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!212 &7321817613402045912
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4094,7 +3678,6 @@ GameObject:
   - component: {fileID: 5913552345396582341}
   - component: {fileID: 2129848269678039801}
   - component: {fileID: 7431067324059911491}
-  - component: {fileID: 7431067324059911492}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -4118,21 +3701,6 @@ CircleCollider2D:
   m_Offset: {x: 0.000000059604645, y: -0.00000011920929}
   serializedVersion: 2
   m_Radius: 0.12500001
---- !u!114 &7431067324059911492
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7431067324059911490}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!4 &7535457690699844863
 Transform:
   m_ObjectHideFlags: 0
@@ -4388,7 +3956,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speed: 10
   time: 0.5
-  items: {fileID: 11400000, guid: 2a1e3180d2cd9844699cd70ee6e0f060, type: 2}
+  items: {fileID: 11400000, guid: 49377279272f7394e9c10211df5a9d76, type: 2}
   wave: 0
   statetable: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   bgm: {fileID: 343366408}
@@ -4669,7 +4237,6 @@ GameObject:
   - component: {fileID: 4849542990940697911}
   - component: {fileID: 7704361002466957116}
   - component: {fileID: 7828430686571861480}
-  - component: {fileID: 7828430686571861481}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -4693,21 +4260,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.12500003
---- !u!114 &7828430686571861481
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7828430686571861479}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!212 &7845816467349808951
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4886,7 +4438,6 @@ GameObject:
   - component: {fileID: 6126229080488087993}
   - component: {fileID: 7656168587825335165}
   - component: {fileID: 8010622363684048560}
-  - component: {fileID: 8010622363684048561}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -4910,21 +4461,6 @@ CircleCollider2D:
   m_Offset: {x: -0.00000011920929, y: 0}
   serializedVersion: 2
   m_Radius: 0.12500001
---- !u!114 &8010622363684048561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8010622363684048559}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!1 &8118163766742457668
 GameObject:
   m_ObjectHideFlags: 0
@@ -4936,7 +4472,6 @@ GameObject:
   - component: {fileID: 4619314625072334125}
   - component: {fileID: 8994931615811193582}
   - component: {fileID: 8118163766742457669}
-  - component: {fileID: 8118163766742457670}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -4960,21 +4495,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.00000017881393}
   serializedVersion: 2
   m_Radius: 0.12499999
---- !u!114 &8118163766742457670
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8118163766742457668}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!4 &8209338582117188592
 Transform:
   m_ObjectHideFlags: 0
@@ -5014,7 +4534,6 @@ GameObject:
   - component: {fileID: 9041239342370518565}
   - component: {fileID: 8390394001767898668}
   - component: {fileID: 8332825312696632717}
-  - component: {fileID: 8332825312696632718}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -5038,21 +4557,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.124999985
---- !u!114 &8332825312696632718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8332825312696632716}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!212 &8390394001767898668
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5129,7 +4633,6 @@ GameObject:
   - component: {fileID: 7561589382312119296}
   - component: {fileID: 6067253242546901357}
   - component: {fileID: 8686575954890486859}
-  - component: {fileID: 8686575954890486860}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -5153,21 +4656,6 @@ CircleCollider2D:
   m_Offset: {x: 0.00000011920929, y: 0}
   serializedVersion: 2
   m_Radius: 0.124999985
---- !u!114 &8686575954890486860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8686575954890486858}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!1 &8828966567231720744
 GameObject:
   m_ObjectHideFlags: 0
@@ -5179,7 +4667,6 @@ GameObject:
   - component: {fileID: 1082449221398552865}
   - component: {fileID: 1846834405095841250}
   - component: {fileID: 8828966567231720745}
-  - component: {fileID: 8828966567231720746}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -5203,21 +4690,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.00000011920929}
   serializedVersion: 2
   m_Radius: 0.12500003
---- !u!114 &8828966567231720746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8828966567231720744}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!1 &8961600946116072229
 GameObject:
   m_ObjectHideFlags: 0
@@ -5229,7 +4701,6 @@ GameObject:
   - component: {fileID: 4540210395261012568}
   - component: {fileID: 1019295336494539975}
   - component: {fileID: 8961600946116072230}
-  - component: {fileID: 8961600946116072231}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -5253,21 +4724,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.12500004
---- !u!114 &8961600946116072231
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8961600946116072229}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!212 &8994931615811193582
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5344,7 +4800,6 @@ GameObject:
   - component: {fileID: 7695438721154538028}
   - component: {fileID: 62926639103915900}
   - component: {fileID: 9065649467484726724}
-  - component: {fileID: 9065649467484726725}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -5368,21 +4823,6 @@ CircleCollider2D:
   m_Offset: {x: 0.00000011920929, y: -0.00000023841858}
   serializedVersion: 2
   m_Radius: 0.12500001
---- !u!114 &9065649467484726725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9065649467484726723}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}
 --- !u!1 &9140178149456948417
 GameObject:
   m_ObjectHideFlags: 0
@@ -5394,7 +4834,6 @@ GameObject:
   - component: {fileID: 417098745420981881}
   - component: {fileID: 5003228564020797886}
   - component: {fileID: 9140178149456948418}
-  - component: {fileID: 9140178149456948419}
   m_Layer: 6
   m_Name: "\u8868\u76D8\u70B9(Clone)"
   m_TagString: point
@@ -5418,18 +4857,3 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.000000059604645}
   serializedVersion: 2
   m_Radius: 0.12500001
---- !u!114 &9140178149456948419
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9140178149456948417}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18759cbeeb5494743965d960570a1cf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Trueimage: {fileID: 21300000, guid: ecadf135ae83b684b8985c52deae0110, type: 3}
-  Falseimage: {fileID: 21300000, guid: ed2c626d26ff70a4c9e8ecd5be0d9a67, type: 3}
-  pointer: {fileID: 0}

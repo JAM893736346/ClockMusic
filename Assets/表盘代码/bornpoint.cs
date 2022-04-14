@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class bornpoint : MonoBehaviour
 {
-    // Start is called before the first frame update
+    //指针旋转速度
     [SerializeField] float Speed = 10;
     WaitForSeconds waitForSeconds;
+    //指针停留时间
     [SerializeField] float time = 0.5f;
     Animator animator;
     private void Awake()
@@ -19,12 +20,10 @@ public class bornpoint : MonoBehaviour
         transform.rotation = Quaternion.Euler(Vector3.zero);
         StartCoroutine(nameof(pointerCoroutine));
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+    /// <summary>
+    /// 指针旋转协程
+    /// </summary>
+    /// <returns></returns>
     IEnumerator pointerCoroutine()
     {
         while (true)
@@ -34,6 +33,7 @@ public class bornpoint : MonoBehaviour
 
         }
     }
+    //播放指针缩放动画
     public void PlayerAnimation()
     {
         animator.Play("Scale");
